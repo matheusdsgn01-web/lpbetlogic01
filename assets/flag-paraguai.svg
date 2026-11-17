@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Flag/Paraguai">
+<g clip-path="url(#clip0_0_160)">
+<path id="Vector" d="M0 0H28V7H0V0Z" fill="#D52B1E"/>
+<path id="Vector_2" d="M2.38419e-07 7H28V14H2.38419e-07V7Z" fill="white"/>
+<path id="Vector_3" d="M2.38419e-07 14H28V21H2.38419e-07V14Z" fill="#0038A8"/>
+<path id="Vector_4" d="M16.0125 10.5C16.0125 11.6115 15.1115 12.5125 14 12.5125C12.8885 12.5125 11.9875 11.6115 11.9875 10.5C11.9875 9.38853 12.8885 8.4875 14 8.4875C15.1115 8.4875 16.0125 9.38853 16.0125 10.5Z" stroke-width="0.4375" stroke="#0A7A3A"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_160">
+<rect width="28" height="21" rx="2" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BetLogic — Tecnologia para operadores de iGaming</title>
+  <meta name="description" content="Infraestrutura completa de iGaming para lançar, gerenciar e escalar sua operação em diversos países, com uma única marca e múltiplos meios de pagamento integrados.">
+  <meta name="theme-color" content="#02070c">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BetLogic — Tecnologia para operadores de iGaming">
+  <meta property="og:description" content="Infraestrutura completa de iGaming para lançar, gerenciar e escalar sua operação em diversos países.">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="js/vendor/lenis.min.js" defer></script>
+  <script src="js/smooth-scroll.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/lead-form.js" defer></script>
+  <script src="js/hero-wave.js" defer></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./js/vendor/three.module.min.js",
+        "three/addons/": "./js/vendor/addons/"
+      }
+    }
+  </script>
+  <script type="module" src="js/hero-ring.js"></script>
+  <script type="module" src="js/globe.js"></script>
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo" aria-label="BetLogic — início">
+        <img src="assets/logo-horizontal.png" alt="BetLogic">
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#produtos">Produtos</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#mercados">Mercados</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="#contato-especialista" data-lead class="btn btn--sm">
+        <span class="btn__icon"><img src="assets/arrow-sm.svg" alt=""></span>
+        Falar com um especialista
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== SEÇÃO 1 — HERO ===================== -->
+    <section class="hero">
+      <div class="hero__wave" aria-hidden="true">
+        <div class="hero__wave-inner" data-wave>
+          <img class="hero__wave-img" src="assets/hero-wave-hd.jpg" alt="">
+          <!-- WebGL: as linhas ondulam e o brilho passa por dentro delas (js/main.js) -->
+          <canvas class="hero__wave-gl"></canvas>
+        </div>
+      </div>
+      <div class="hero__content container">
+        <h1 class="h-display hero__title">A tecnologia por trás das <span class="grad">grandes operações</span></h1>
+        <p class="lead hero__lead">Infraestrutura completa de iGaming para lançar, gerenciar e escalar sua operação em diversos países, com uma única marca e múltiplos meios de pagamento integrados.</p>
+        <div class="hero__cta">
+          <a href="#contato-especialista" data-lead class="btn">
+            <span class="btn__icon"><img src="assets/arrow.svg" alt=""></span>
+            Falar com um especialista
+          </a>
+        </div>
+        <div class="hero__ring">
+          <img src="assets/hero-ring.png" alt="">
+          <!-- anel 3D girando (js/hero-ring.js); a imagem é o fallback -->
+          <canvas class="hero__ring-gl"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <div class="panel">
+      <!-- ===================== SEÇÃO 2 — FEATURES ===================== -->
+      <section class="features" id="tecnologia">
+        <div class="container">
+          <div class="sec-head">
+            <h2 class="h-xl">Tudo conectado.<br><span class="grad">Tudo sob seu controle.</span></h2>
+            <p class="lead">Tecnologia, automação e inteligência em um único ecossistema.</p>
+          </div>
+
+          <ul class="feature-grid">
+            <li class="feature">
+              <span class="feature__icon"><img src="assets/ic-slots.svg" alt=""></span>
+              <span class="feature__spacer"></span>
+              <h3>Cassino &amp; Slots</h3>
+              <p>12.500+ jogos. 110+ provedores.</p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon"><img src="assets/ic-sportsbook.svg" alt=""></span>
+              <span class="feature__spacer"></span>
+              <h3>Sportsbook</h3>
+              <p>Apostas pré-jogo e ao vivo.</p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon"><img src="assets/ic-casino-vivo.svg" alt=""></span>
+              <span class="feature__spacer"></span>
+              <h3>Cassino ao Vivo</h3>
+              <p>Mesas com dealers reais.</p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon"><img src="assets/ic-crm.svg" alt=""></span>
+              <span class="feature__spacer"></span>
+              <h3>CRM &amp; Retenção</h3>
+              <p>Campanhas, bônus e automações.</p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon"><img src="assets/ic-afiliados.svg" alt=""></span>
+              <span class="feature__spacer"></span>
+              <h3>Gestão de Afiliados</h3>
+              <p>Gerencie afiliados e comissões.</p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon"><img src="assets/ic-ai-support.svg" alt=""></span>
+              <span class="feature__spacer"></span>
+              <h3>AI Support</h3>
+              <p>Atendimento automatizado com IA.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===================== SEÇÃO 3 — PRODUTOS ===================== -->
+      <section class="products" id="produtos">
+        <div class="container">
+          <div class="sec-head">
+            <h2 class="h-xl">Nossos <span class="grad">produtos</span></h2>
+            <p class="lead">Tecnologia pronta para lançar hoje e preparada para escalar amanhã.</p>
+          </div>
+
+          <div class="product-grid">
+            <article class="product product--whitelabel">
+              <img class="product__illus" src="assets/prod-whitelabel.svg" alt="">
+              <div class="product__head">
+                <h3>White Label<br>iGaming</h3>
+              </div>
+              <p>Sua marca. Nossa tecnologia. Uma plataforma completa, pronta para lançamento em até 72 horas.</p>
+            </article>
+
+            <article class="product product--turnkey">
+              <img class="product__illus" src="assets/prod-turnkey.svg" alt="">
+              <div class="product__head">
+                <h3>Turnkey<br>Platform</h3>
+                <span class="pill">Em breve</span>
+              </div>
+              <p>Software desenvolvido sob medida, com funcionalidades e integrações adaptadas às exigências da sua operação.</p>
+            </article>
+
+            <article class="product product--crypto">
+              <img class="product__illus" src="assets/prod-crypto.svg" alt="">
+              <div class="product__head">
+                <h3>Crypto<br>Casino</h3>
+                <span class="pill">Em breve</span>
+              </div>
+              <p>Infraestrutura de cassino para operações com criptomoedas e pagamentos digitais.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== SEÇÃO 4 — INTELIGÊNCIA ===================== -->
+      <section class="intel">
+        <div class="container">
+          <h2 class="h-lg">Além da infraestrutura.<br><span class="grad">Inteligência para evoluir.</span></h2>
+
+          <div class="intel-grid">
+
+            <!-- AI Logic -->
+            <article class="icard">
+              <div class="icard__glow" style="left:88px;top:239px;width:543.544px;height:321.042px;display:flex;align-items:center;justify-content:center;" aria-hidden="true">
+                <div style="flex:none;width:513.5px;height:252.176px;transform:rotate(7.98deg);">
+                  <img src="assets/s4-glow-c.svg" alt="" style="left:-8.15%;top:-28.79%;width:116.17%;height:157.58%;">
+                </div>
+              </div>
+              <div class="icard__glow" style="left:-219px;top:-106px;width:287.5px;height:140.916px;" aria-hidden="true">
+                <div><img src="assets/s4-glow-b.svg" alt="" style="left:-13.94%;top:-50.81%;width:132.69%;height:201.62%;"></div>
+              </div>
+
+              <div class="icard__head">
+                <div>
+                  <h3>AI Logic</h3>
+                  <p>IA que analisa métricas e orienta decisões.</p>
+                </div>
+              </div>
+
+              <div class="viz" style="left:39px;top:117.85px;width:503px;height:242.293px;" aria-hidden="true">
+                <span class="m" style="left:0;top:15.51px;font-size:29.075px;color:#eef3f8;">R$ 2,48 mi</span>
+                <span class="flow m" style="left:164.76px;top:23.26px;padding:4.846px 9.692px;border-radius:999px;background:rgba(14,140,148,.18);border:.969px solid rgba(14,140,148,.45);font-size:10.661px;color:#c6f7f8;">↑ 12,8%</span>
+                <span class="flow m" style="left:378.95px;top:3.88px;gap:1.938px;padding:2.908px;border-radius:999px;background:#121b27;border:.969px solid rgba(168,190,207,.14);font-size:10.176px;color:#7f8b9b;">
+                  <span style="padding:3.877px 9.692px;border-radius:999px;">7D</span>
+                  <span style="padding:3.877px 9.692px;border-radius:999px;background:#eef3f8;color:#0b1118;">30D</span>
+                  <span style="padding:3.877px 9.692px;border-radius:999px;">90D</span>
+                </span>
+
+                <i style="left:.97px;top:67.84px;width:69.919px;height:153.129px;border-radius:5.815px;background:linear-gradient(180deg,rgba(168,190,207,.04),rgba(168,190,207,.01));"></i>
+                <i style="left:72.83px;top:67.84px;width:69.919px;height:153.129px;border-radius:5.815px;background:linear-gradient(180deg,rgba(168,190,207,.04),rgba(168,190,207,.01));"></i>
+                <i style="left:144.68px;top:67.84px;width:69.919px;height:153.129px;border-radius:5.815px;background:linear-gradient(180deg,rgba(168,190,207,.04),rgba(168,190,207,.01));"></i>
+                <i style="left:216.54px;top:67.84px;width:69.919px;height:153.129px;border-radius:5.815px;background:linear-gradient(180deg,rgba(168,190,207,.04),rgba(168,190,207,.01));"></i>
+                <i style="left:288.4px;top:67.84px;width:69.919px;height:153.129px;border-radius:5.815px;background:linear-gradient(180deg,rgba(168,190,207,.04),rgba(168,190,207,.01));"></i>
+                <i style="left:360.25px;top:67.84px;width:69.919px;height:153.129px;border-radius:5.815px;background:linear-gradient(180deg,rgba(168,190,207,.04),rgba(168,190,207,.01));"></i>
+                <i style="left:432.11px;top:67.84px;width:69.919px;height:153.129px;border-radius:5.815px;background:linear-gradient(180deg,rgba(168,190,207,.09),rgba(168,190,207,.01));"></i>
+                <span style="left:27.21px;top:228.72px;font-size:9.207px;color:#6f7f92;">JAN</span>
+                <span style="left:99.06px;top:228.72px;font-size:9.207px;color:#6f7f92;">FEV</span>
+                <span style="left:170.92px;top:228.72px;font-size:9.207px;color:#6f7f92;">MAR</span>
+                <span style="left:242.78px;top:228.72px;font-size:9.207px;color:#6f7f92;">ABR</span>
+                <span style="left:314.63px;top:228.72px;font-size:9.207px;color:#6f7f92;">MAI</span>
+                <span style="left:386.49px;top:228.72px;font-size:9.207px;color:#6f7f92;font-family:var(--font-mono);">JUN</span>
+                <span style="left:458.35px;top:228.72px;font-size:9.207px;color:#c6f7f8;font-family:var(--font-mono);">JUL</span>
+
+                <img src="assets/s4-chart.svg" alt="" style="left:0;top:0;width:503px;height:242.293px;">
+                <img src="assets/s4-point.svg" alt="" style="left:32.54px;top:183.89px;width:6.784px;height:6.784px;">
+                <img src="assets/s4-point.svg" alt="" style="left:104.39px;top:165.52px;width:6.784px;height:6.784px;">
+                <img src="assets/s4-point.svg" alt="" style="left:176.25px;top:171.64px;width:6.784px;height:6.784px;">
+                <img src="assets/s4-point.svg" alt="" style="left:248.11px;top:144.08px;width:6.784px;height:6.784px;">
+                <img src="assets/s4-point.svg" alt="" style="left:319.96px;top:150.2px;width:6.784px;height:6.784px;">
+                <img src="assets/s4-point.svg" alt="" style="left:391.82px;top:122.64px;width:6.784px;height:6.784px;">
+                <img src="assets/s4-point-lg.svg" alt="" style="left:461.74px;top:83.95px;width:10.661px;height:10.661px;">
+                <i style="left:466.59px;top:95.1px;width:.969px;height:125.876px;background:rgba(198,247,248,.5);"></i>
+
+                <span class="flow col" style="left:322.67px;top:154.1px;gap:5.815px;padding:9.692px 11.63px;border-radius:11.63px;background:rgba(21,29,39,.96);border:.969px solid rgba(168,190,207,.22);">
+                  <span class="flow m" style="gap:17.445px;font-size:11.145px;"><span style="color:#eef3f8;">Julho</span><span style="color:#c6f7f8;">R$ 412 mil</span></span>
+                  <span class="flow" style="gap:5.815px;font-size:10.176px;color:#a8becf;"><img src="assets/s4-sparkle.svg" alt="" style="width:10.661px;height:10.661px;">Melhor mês do ano</span>
+                </span>
+
+                <span class="flow" style="left:0;top:75.6px;gap:7.753px;padding:5.815px 11.63px 5.815px 7.753px;border-radius:999px;background:rgba(18,27,39,.95);border:.969px solid rgba(111,224,255,.3);">
+                  <span class="m" style="padding:1.938px 5.815px;border-radius:999px;background:linear-gradient(135deg,#121f38 25.21%,#6fe0ff 137.43%);font-size:9.207px;color:#fff;">IA</span>
+                  <span style="font-size:10.661px;color:#d9e2ea;">Pico de apostas entre 20h e 23h</span>
+                </span>
+              </div>
+            </article>
+
+            <!-- Growth Lab -->
+            <article class="icard">
+              <div class="icard__glow" style="left:-178px;top:333px;width:477.5px;height:149.536px;" aria-hidden="true">
+                <div><img src="assets/s4-glow-a.svg" alt="" style="left:-13.89%;top:-44.34%;width:127.46%;height:188.68%;"></div>
+              </div>
+              <div class="icard__glow" style="left:376px;top:-91px;width:287.5px;height:140.916px;" aria-hidden="true">
+                <div><img src="assets/s4-glow-b.svg" alt="" style="left:-13.94%;top:-50.81%;width:132.69%;height:201.62%;"></div>
+              </div>
+
+              <div class="icard__head">
+                <div>
+                  <h3>Growth Lab</h3>
+                  <p>Experimentos A/B para otimizar resultados.</p>
+                </div>
+              </div>
+
+              <div class="viz" style="left:31px;top:106px;width:519px;height:250px;" aria-hidden="true">
+                <span class="flow m" style="left:0;top:44px;gap:6px;padding:5px 10px;border-radius:999px;background:rgba(3,11,11,.16);border:1px solid rgba(14,140,148,.4);font-size:11px;color:#c6f7f8;"><img src="assets/s4-dot-live.svg" alt="" style="width:6px;height:6px;">Em andamento</span>
+                <span class="flow" style="left:377px;top:4px;gap:14px;font-size:10.5px;color:#a8becf;">
+                  <span class="flow" style="gap:6px;"><i style="width:8px;height:8px;border-radius:2px;background:#5a6577;"></i>Variante A</span>
+                  <span class="flow" style="gap:6px;"><i style="width:8px;height:8px;border-radius:2px;background:#6fe0ff;"></i>Variante B</span>
+                </span>
+                <span class="m" style="left:342px;top:26px;padding:5px 10px;border-radius:999px;background:#eef3f8;font-size:10.5px;color:#0b1118;">B vencedora · 95% de confiança</span>
+
+                <i style="left:0;top:104px;width:519px;height:1px;background:rgba(168,190,207,.06);"></i>
+                <i style="left:0;top:145.33px;width:519px;height:1px;background:rgba(168,190,207,.06);"></i>
+                <i style="left:0;top:186.67px;width:519px;height:1px;background:rgba(168,190,207,.06);"></i>
+                <i style="left:0;top:228px;width:519px;height:1px;background:rgba(168,190,207,.18);"></i>
+
+                <i class="bar-a" style="left:15.07px;top:190.8px;height:37.2px;"></i><i class="bar-b" style="left:39.07px;top:180.88px;height:47.12px;"></i>
+                <span class="bar-label" style="left:28.07px;">SEG</span>
+                <i class="bar-a" style="left:89.21px;top:183.36px;height:44.64px;"></i><i class="bar-b" style="left:113.21px;top:169.72px;height:58.28px;"></i>
+                <span class="bar-label" style="left:102.21px;">TER</span>
+                <i class="bar-a" style="left:163.36px;top:187.08px;height:40.92px;"></i><i class="bar-b" style="left:187.36px;top:172.2px;height:55.8px;"></i>
+                <span class="bar-label" style="left:176.36px;">QUA</span>
+                <i class="bar-a" style="left:237.5px;top:178.4px;height:49.6px;"></i><i class="bar-b" style="left:261.5px;top:158.56px;height:69.44px;"></i>
+                <span class="bar-label" style="left:250.5px;">QUI</span>
+                <i class="bar-a" style="left:311.64px;top:170.96px;height:57.04px;background:linear-gradient(180deg,rgba(90,101,119,.95),rgba(42,50,64,.4));"></i><i class="bar-b" style="left:335.64px;top:128.8px;height:99.2px;background:linear-gradient(180deg,#c6f7f8,#6fe0ff 45%,rgba(43,107,255,.85));"></i>
+                <span class="bar-label" style="left:324.64px;color:#c6f7f8;">SEX</span>
+                <img src="assets/s4-check-ring.svg" alt="" style="left:337.64px;top:106.8px;width:16px;height:16px;">
+                <img src="assets/s4-check.svg" alt="" style="left:341.14px;top:110.3px;width:9px;height:9px;">
+                <i style="left:345.14px;top:122.8px;width:1px;height:6px;background:rgba(198,247,248,.7);"></i>
+                <i class="bar-a" style="left:385.79px;top:175.92px;height:52.08px;"></i><i class="bar-b" style="left:409.79px;top:151.12px;height:76.88px;"></i>
+                <span class="bar-label" style="left:398.79px;">SÁB</span>
+                <i class="bar-a" style="left:459.93px;top:180.88px;height:47.12px;"></i><i class="bar-b" style="left:483.93px;top:159.8px;height:68.2px;"></i>
+                <span class="bar-label" style="left:472.93px;">DOM</span>
+
+                <span class="flow col" style="left:187.64px;top:102.8px;gap:5px;padding:10px 12px;border-radius:12px;background:rgba(3,7,11,.97);border:1px solid rgba(168,190,207,.22);">
+                  <span class="m" style="font-size:11.5px;color:#eef3f8;">Sexta-feira</span>
+                  <span class="flow" style="gap:20px;font-size:10.5px;"><span style="color:#a8becf;">Conversão B</span><span class="m" style="color:#c6f7f8;">8,4%</span></span>
+                  <span class="flow" style="gap:20px;font-size:10.5px;"><span style="color:#a8becf;">vs. variante A</span><span class="m" style="color:#6fe0ff;">+32%</span></span>
+                </span>
+              </div>
+            </article>
+
+            <!-- Modular Front-end -->
+            <article class="icard">
+              <div class="icard__glow" style="left:-230px;top:97px;width:510.887px;height:561.671px;display:flex;align-items:center;justify-content:center;" aria-hidden="true">
+                <div style="flex:none;width:513.5px;height:252.176px;transform:rotate(52.9deg);">
+                  <img src="assets/s4-glow-d.svg" alt="" style="left:-8.15%;top:-28.79%;width:116.17%;height:157.58%;">
+                </div>
+              </div>
+              <div class="icard__glow" style="left:220px;top:-116px;width:287.5px;height:140.916px;" aria-hidden="true">
+                <div><img src="assets/s4-glow-b.svg" alt="" style="left:-13.94%;top:-50.81%;width:132.69%;height:201.62%;"></div>
+              </div>
+
+              <div class="icard__head">
+                <div>
+                  <h3>Modular Front-end</h3>
+                  <p>Interface 100% modular e customizável.</p>
+                </div>
+              </div>
+
+              <div class="viz" style="left:31px;top:116px;width:519px;height:250px;" aria-hidden="true">
+                <div style="left:0;top:0;width:519px;height:250px;background:#020407;border:1px solid rgba(168,190,207,.14);border-radius:14px;overflow:hidden;">
+                  <i style="left:-1px;top:-1px;width:519px;height:34px;background:#09101b;"></i>
+                  <i style="left:-1px;top:33px;width:519px;height:1px;background:rgba(168,190,207,.1);"></i>
+                  <img src="assets/s4-win-dot.svg" alt="" style="left:11px;top:12px;width:8px;height:8px;">
+                  <img src="assets/s4-win-dot.svg" alt="" style="left:24px;top:12px;width:8px;height:8px;">
+                  <img src="assets/s4-win-dot.svg" alt="" style="left:37px;top:12px;width:8px;height:8px;">
+                  <span class="flow" style="left:227.5px;top:5px;gap:2px;padding:2px;border-radius:8px;background:#0b1118;">
+                    <span class="flow" style="padding:3px 8px;border-radius:6px;background:#1c2635;"><img src="assets/s4-desktop.svg" alt="" style="width:12px;height:12px;"></span>
+                    <span class="flow" style="padding:3px 8px;border-radius:6px;"><img src="assets/s4-mobile.svg" alt="" style="width:12px;height:12px;"></span>
+                  </span>
+                  <span class="m" style="left:447px;top:5px;padding:5px 10px;border-radius:999px;background:linear-gradient(90deg,#a8becf,#c6f7f8);font-size:10.5px;color:#000;">Publicar</span>
+
+                  <i style="left:-1px;top:34px;width:132px;height:215px;background:rgba(4,7,11,.6);"></i>
+                  <i style="left:131px;top:34px;width:1px;height:215px;background:rgba(168,190,207,.1);"></i>
+                  <span style="left:11px;top:45px;font-family:var(--font-mono);font-size:9px;color:#6f7f92;">COMPONENTES</span>
+                  <span class="flow side-item" style="top:61px;"><img src="assets/s4-ic-banner.svg" alt="">Banner</span>
+                  <span class="flow side-item side-item--on" style="top:91px;"><img src="assets/s4-ic-jogos.svg" alt="">Jogos</span>
+                  <span class="flow side-item" style="top:121px;"><img src="assets/s4-ic-ranking.svg" alt="">Ranking</span>
+                  <span class="flow side-item" style="top:151px;"><img src="assets/s4-ic-promo.svg" alt="">Promoções</span>
+                  <span class="flow side-item" style="top:181px;"><img src="assets/s4-ic-esportes.svg" alt="">Esportes</span>
+
+                  <div style="left:145px;top:45px;width:361px;height:194px;background:#0b1118;border:1px solid rgba(168,190,207,.1);border-radius:10px;overflow:hidden;">
+                    <i style="left:-1px;top:-1px;width:361px;height:24px;background:#121b27;"></i>
+                    <img src="assets/s4-page-dot.svg" alt="" style="left:9px;top:6px;width:10px;height:10px;">
+                    <i style="left:25px;top:9px;width:40px;height:4px;border-radius:2px;background:rgba(168,190,207,.35);"></i>
+                    <i style="left:240px;top:9px;width:22px;height:4px;border-radius:2px;background:rgba(168,190,207,.2);"></i>
+                    <i style="left:270px;top:9px;width:22px;height:4px;border-radius:2px;background:rgba(168,190,207,.2);"></i>
+                    <i style="left:300px;top:9px;width:22px;height:4px;border-radius:2px;background:rgba(168,190,207,.2);"></i>
+                    <i style="left:332px;top:6px;width:20px;height:10px;border-radius:5px;background:rgba(43,107,255,.8);"></i>
+
+                    <i style="left:9px;top:31px;width:341px;height:64px;border-radius:8px;border:1.5px solid #6fe0ff;background:linear-gradient(176.06deg,#6fe0ff 37.51%,#a8becf 90.88%);"></i>
+                    <span class="m" style="left:21px;top:47px;font-size:11px;color:#0b0b0b;">Banner principal</span>
+                    <i style="left:21px;top:65px;width:90px;height:5px;border-radius:3px;background:rgba(255,255,255,.45);"></i>
+                    <i style="left:21px;top:77px;width:52px;height:12px;border-radius:6px;background:#eef3f8;"></i>
+                    <i class="handle" style="left:5.5px;top:27.5px;"></i>
+                    <i class="handle" style="left:346.5px;top:27.5px;"></i>
+                    <i class="handle" style="left:5.5px;top:91.5px;"></i>
+                    <i class="handle" style="left:346.5px;top:91.5px;"></i>
+                    <span class="m" style="left:9px;top:21px;padding:2px 10px;border-radius:999px;background:#6fe0ff;font-size:9px;color:#0b1118;">Banner · selecionado</span>
+
+                    <i class="tile" style="left:9px;background:linear-gradient(85.76deg,#6fe0ff 2.11%,#a8becf 90.04%);"></i>
+                    <i class="tile-bar" style="left:15px;background:rgba(0,0,0,.25);"></i>
+                    <i class="tile" style="left:95.75px;background:linear-gradient(149.27deg,rgba(14,140,148,.28) 0%,rgba(18,31,56,.5) 71.43%);"></i>
+                    <i class="tile-bar" style="left:101.75px;background:rgba(255,255,255,.25);"></i>
+                    <i class="tile" style="left:182.5px;background:linear-gradient(149.27deg,rgba(168,190,207,.28) 0%,rgba(18,31,56,.5) 71.43%);"></i>
+                    <i class="tile-bar" style="left:188.5px;background:rgba(255,255,255,.25);"></i>
+                    <i class="tile" style="left:269.25px;background:linear-gradient(85.76deg,#6fe0ff 2.11%,#a8becf 90.04%);"></i>
+                    <i class="tile-bar" style="left:275.25px;background:rgba(0,0,0,.25);"></i>
+
+                    <i style="left:9px;top:161px;width:341px;height:26px;border-radius:7px;background:rgba(111,224,255,.05);border:1px dashed rgba(111,224,255,.6);"></i>
+                    <span style="left:121.5px;top:168px;font-size:9.5px;color:#6fe0ff;">+ Solte o componente aqui</span>
+                  </div>
+
+                  <div style="left:382.89px;top:165px;width:86.382px;height:38.203px;display:flex;align-items:center;justify-content:center;">
+                    <span class="flow m" style="position:relative;flex:none;transform:rotate(5deg);gap:8px;padding:8px 12px 8px 10px;border-radius:10px;background:#eef3f8;box-shadow:0 10px 18px rgba(0,0,0,.45);font-size:11px;color:#0b1118;"><img src="assets/s4-ic-ranking-dark.svg" alt="" style="width:13px;height:13px;">Ranking</span>
+                  </div>
+                  <img src="assets/s4-cursor.svg" alt="" style="left:457.5px;top:181px;width:16px;height:16px;">
+                </div>
+              </div>
+            </article>
+
+            <!-- Smart Lobby AI -->
+            <article class="icard">
+              <div class="icard__glow" style="left:55.77px;top:-156.97px;width:602.453px;height:283.948px;display:flex;align-items:center;justify-content:center;" aria-hidden="true">
+                <div style="flex:none;width:584.001px;height:148px;transform:rotate(13.9deg);">
+                  <img src="assets/s4-glow-e.svg" alt="" style="left:-9.8%;top:-36.69%;width:120.36%;height:173.09%;">
+                </div>
+              </div>
+
+              <div class="icard__head">
+                <div>
+                  <h3>Smart Lobby AI</h3>
+                  <p>Experiências personalizadas por IA comportamental.</p>
+                </div>
+                <span class="pill">Em breve</span>
+              </div>
+
+              <div class="viz" style="left:44px;top:135.98px;width:490px;height:236.031px;" aria-hidden="true">
+                <span class="flow m" style="left:374.82px;top:4.72px;gap:5.665px;padding:4.721px 9.441px;border-radius:999px;background:rgba(14,140,148,.16);border:.944px solid rgba(14,140,148,.45);font-size:9.913px;color:#c6f7f8;"><img src="assets/s4-dot-ai.svg" alt="" style="width:5.665px;height:5.665px;">IA personalizando</span>
+
+                <span class="m lobby-tab lobby-tab--on" style="left:0;">Para você</span>
+                <span class="m lobby-tab" style="left:70.81px;">Slots</span>
+                <span class="m lobby-tab" style="left:121.79px;">Ao vivo</span>
+                <span class="m lobby-tab" style="left:182.22px;">Crash</span>
+                <span class="m lobby-tab" style="left:236.03px;">Esportes</span>
+
+                <div class="game" style="left:0;border-color:rgba(198,247,248,.7);">
+                  <div class="game__cover" style="background:linear-gradient(137deg,rgba(164,224,240,.85) 0%,#297387 71.43%);">
+                    <img class="game__c1" src="assets/s4-cover-circle-a.svg" alt="">
+                    <img class="game__c2" src="assets/s4-cover-circle-b.svg" alt="">
+                    <img class="game__ic" src="assets/s4-game-slots.svg" alt="">
+                    <span class="m game__match" style="background:#c6f7f8;color:#0b1118;">98% match</span>
+                  </div>
+                  <span class="m game__t">Fortune Slots</span>
+                  <span class="game__s">Seu favorito · Slots</span>
+                </div>
+                <div class="game" style="left:124.86px;">
+                  <div class="game__cover" style="background:#060606;">
+                    <img class="game__c1" src="assets/s4-cover-circle-a.svg" alt="">
+                    <img class="game__c2" src="assets/s4-cover-circle-b.svg" alt="">
+                    <img class="game__ic" src="assets/s4-game-roleta.svg" alt="">
+                    <span class="m game__match">94% match</span>
+                  </div>
+                  <span class="m game__t">Roleta ao Vivo</span>
+                  <span class="game__s">Popular agora</span>
+                </div>
+                <div class="game" style="left:249.72px;">
+                  <div class="game__cover" style="background:#060606;">
+                    <img class="game__c1" src="assets/s4-cover-circle-a.svg" alt="">
+                    <img class="game__c2" src="assets/s4-cover-circle-b.svg" alt="">
+                    <img class="game__ic" src="assets/s4-game-crash.svg" alt="">
+                    <span class="m game__match">91% match</span>
+                  </div>
+                  <span class="m game__t">Turbo Crash</span>
+                  <span class="game__s">Combina com você</span>
+                </div>
+                <div class="game" style="left:374.58px;">
+                  <div class="game__cover" style="background:linear-gradient(135.13deg,#a4e0f0 46.16%,#0e8c94 71.43%);">
+                    <img class="game__c1" src="assets/s4-cover-circle-a.svg" alt="">
+                    <img class="game__c2" src="assets/s4-cover-circle-b.svg" alt="">
+                    <img class="game__ic" src="assets/s4-game-blackjack.svg" alt="">
+                    <span class="m game__match">87% match</span>
+                  </div>
+                  <span class="m game__t">Blackjack VIP</span>
+                  <span class="game__s">Alto engajamento</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== BANNER ===================== -->
+      <section class="banner-row">
+        <div class="banner">
+          <img class="banner__mountain" src="assets/banner-mountain.png" alt="" aria-hidden="true">
+          <div class="banner__shade" aria-hidden="true"></div>
+          <div class="banner__wave" aria-hidden="true"><img src="assets/banner-wave.jpg" alt=""></div>
+          <h2 class="banner__title">Sua operação.<br><span class="grad">Nossa tecnologia.</span></h2>
+          <div class="banner__side">
+            <img class="logo" src="assets/logo-full.png" alt="BetLogic">
+            <a href="#contato-especialista" data-lead class="btn btn--lg">
+              <span class="btn__icon"><img src="assets/arrow-lg.svg" alt=""></span>
+              Falar com um especialista
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===================== TRANSIÇÃO ===================== -->
+    <section class="transition" data-bg="light" aria-hidden="true">
+      <div class="transition__stage">
+        <div class="transition__fill"></div>
+        <img class="transition__logo" src="assets/symbol.svg" alt="">
+      </div>
+    </section>
+
+    <!-- ===================== SEÇÃO 5 — MERCADOS ===================== -->
+    <section class="markets" id="mercados">
+      <img class="markets__bg" src="assets/symbol-bg.svg" alt="" aria-hidden="true">
+      <div class="container">
+        <h2 class="h-xl"><span class="grad">Uma marca.</span><br>Diversos países.<br><span class="grad">Infinitas possibilidades.</span></h2>
+        <p class="lead">Infraestrutura multimoeda, pagamentos locais integrados e gestão centralizada para expandir sua operação internacionalmente.</p>
+
+        <div class="markets__stage">
+          <div class="markets__globe-wrap">
+            <div class="globe">
+              <img class="globe__fallback" src="assets/globe.png" width="654" height="654" alt="">
+              <!-- globo 3D interativo (js/globe.js): arraste para girar -->
+              <canvas class="globe__gl" aria-label="Globo interativo: arraste para girar ou escolha um país na lista"></canvas>
+            </div>
+            <div class="country-card" aria-live="polite">
+              <div class="country-card__head">
+                <span class="flag"><img data-cc="flag" src="assets/flag-mexico.svg" alt=""></span>
+                <strong data-cc="name">México</strong>
+                <span class="spacer"></span>
+                <span class="pill pill--glow" data-cc="status"><img src="assets/dot.svg" alt="">Disponível</span>
+              </div>
+              <div class="kpis">
+                <div class="kpi"><span>GGR 2025</span><strong data-cc="ggr">US$ 2,85 bi</strong><small>Receita bruta do mercado.</small></div>
+                <div class="kpi"><span>GGR projetado 2028</span><strong data-cc="ggr28">US$ 4,95 bi</strong><small>Projeção de receita bruta.</small></div>
+                <div class="kpi"><span>CAGR 2025–2028</span><strong class="glow" data-cc="cagr">+20,2% a.a.</strong><small>Crescimento médio anual.</small></div>
+                <div class="kpi"><span>Volume apostado estimado</span><strong data-cc="vol">~US$ 28,5 bi</strong><small>Total movimentado em apostas.</small></div>
+              </div>
+              <p class="country-card__note">Valores em US$. “~” indica estimativa; 2028 e volume apostado são projeções.</p>
+            </div>
+          </div>
+
+          <div class="regions">
+            <div class="region">
+              <div class="region__head region__head--live">
+                <h4>América Latina</h4>
+                <span class="pill pill--ghost"><img src="assets/dot.svg" alt="">Disponível</span>
+              </div>
+              <ul class="chips">
+                <li><button type="button" class="chip" data-country="BR"><img src="assets/flag-brasil.svg" alt="">Brasil</button></li>
+                <li><button type="button" class="chip" data-country="MX"><img src="assets/flag-mexico.svg" alt="">México</button></li>
+                <li><button type="button" class="chip" data-country="AR"><img src="assets/flag-argentina.svg" alt="">Argentina</button></li>
+                <li><button type="button" class="chip" data-country="CO"><img src="assets/flag-colombia.svg" alt="">Colômbia</button></li>
+                <li><button type="button" class="chip" data-country="PE"><img src="assets/flag-peru.svg" alt="">Peru</button></li>
+                <li><button type="button" class="chip" data-country="CL"><img src="assets/flag-chile.svg" alt="">Chile</button></li>
+                <li><button type="button" class="chip" data-country="UY"><img src="assets/flag-uruguai.svg" alt="">Uruguai</button></li>
+                <li><button type="button" class="chip" data-country="PY"><img src="assets/flag-paraguai.svg" alt="">Paraguai</button></li>
+                <li><button type="button" class="chip" data-country="BO"><img src="assets/flag-bolivia.svg" alt="">Bolívia</button></li>
+                <li><button type="button" class="chip" data-country="EC"><img src="assets/flag-equador.svg" alt="">Equador</button></li>
+                <li><button type="button" class="chip" data-country="CR"><img src="assets/flag-costa-rica.svg" alt="">Costa Rica</button></li>
+              </ul>
+            </div>
+            <div class="region">
+              <div class="region__head">
+                <h4>África</h4>
+                <span class="pill">Em breve</span>
+              </div>
+              <ul class="chips">
+                <li><button type="button" class="chip" data-country="ZA"><img src="assets/flag-africa-do-sul.svg" alt="">África do Sul</button></li>
+                <li><button type="button" class="chip" data-country="NG"><img src="assets/flag-nigeria.svg" alt="">Nigéria</button></li>
+                <li><button type="button" class="chip" data-country="GH"><img src="assets/flag-gana.svg" alt="">Gana</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA FINAL ===================== -->
+    <section class="cta" id="contato">
+      <div class="cta__wave" aria-hidden="true">
+        <div class="cta__wave-inner" data-wave>
+          <img src="assets/cta-wave-hd.jpg" alt="">
+          <!-- WebGL: mesmo efeito da onda do Hero (js/hero-wave.js) -->
+          <canvas></canvas>
+        </div>
+      </div>
+      <img class="cta__logo" src="assets/logo-stacked.png" alt="BetLogic">
+      <div class="container">
+        <h2 class="h-display">Grandes operações começam com <span class="grad">grandes decisões.</span></h2>
+        <p class="lead">A tecnologia para construir a próxima já está aqui.</p>
+        <div class="cta__btn">
+          <a href="#contato-especialista" data-lead class="btn btn--lg">
+            <span class="btn__icon"><img src="assets/arrow-lg.svg" alt=""></span>
+            Falar com um especialista
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div class="footer__brand">
+          <img src="assets/logo-horizontal.png" alt="BetLogic">
+          <p>Technology for iGaming operators</p>
+        </div>
+        <nav class="footer__links" aria-label="Rodapé">
+          <a href="#produtos">Produtos</a>
+          <a href="#tecnologia">Tecnologia</a>
+          <a href="#mercados">Mercados</a>
+          <a href="#contato">Contato</a>
+          <a href="#">Privacidade</a>
+          <a href="#">Termos</a>
+        </nav>
+      </div>
+      <div class="footer__row footer__legal">
+        <p>© 2026 BetLogic. Todos os direitos reservados.</p>
+        <p>SITE FEITO COM CARINHO POR: <a class="footer__credit" href="https://www.instagram.com/matheustoledo.design/" target="_blank" rel="noopener" aria-label="Matheus Toledo no Instagram (abre em nova aba)">MATHEUS TOLEDO<svg class="footer__ext" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true"><path d="M4.5 2.5h5v5M9.5 2.5l-7 7" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== BOTÃO FIXO (aparece depois do Hero) ===================== -->
+  <div class="float-cta" aria-hidden="true">
+    <a href="#contato-especialista" data-lead class="btn" tabindex="-1">
+      <span class="btn__icon"><img src="assets/arrow.svg" alt=""></span>
+      Falar com um especialista
+    </a>
+  </div>
+
+  <!-- ===================== FORMULÁRIO (modal em 3 etapas) — js/lead-form.js ===================== -->
+  <div class="leadform" id="contato-especialista" hidden>
+    <div class="lead__backdrop" data-lead-close></div>
+    <div class="lead__modal" role="dialog" aria-modal="true" aria-labelledby="lead-title" data-lenis-prevent>
+      <button type="button" class="lead__close" data-lead-close aria-label="Fechar">
+        <img src="assets/form/close.svg" alt="">
+      </button>
+
+      <!-- Lateral -->
+      <aside class="lead__side">
+        <img class="lead__logo" src="assets/logo-horizontal.png" alt="BetLogic">
+        <p class="lead__pitch"><span>Sua bet, sua marca.</span> <strong>Toda a tecnologia por nossa conta.</strong></p>
+        <p class="lead__intro">Responda em menos de 2 minutos. Um especialista vai analisar seu perfil e apresentar a solução ideal para o seu negócio.</p>
+        <ol class="lead__steps">
+          <li class="lead__step is-current" data-step-nav="1">
+            <span class="lead__step-num">01</span>
+            <span class="lead__step-text"><strong>Informações pessoais</strong><small>Como falamos com você</small></span>
+          </li>
+          <li class="lead__step" data-step-nav="2">
+            <span class="lead__step-num">02</span>
+            <span class="lead__step-text"><strong>Perfil profissional</strong><small>Sua experiência no mercado</small></span>
+          </li>
+          <li class="lead__step" data-step-nav="3">
+            <span class="lead__step-num">03</span>
+            <span class="lead__step-text"><strong>Seu projeto</strong><small>Objetivos e investimento</small></span>
+          </li>
+        </ol>
+        <p class="lead__safe"><img src="assets/form/shield.svg" alt="">Seus dados estão protegidos e não serão compartilhados.</p>
+      </aside>
+
+      <!-- Conteúdo -->
+      <form class="lead__content" novalidate>
+        <div class="lead__progress"><span class="lead__progress-bar"></span></div>
+
+        <!-- Etapa 1 -->
+        <section class="lead__body" data-step="1">
+          <header class="lead__head">
+            <p class="lead__eyebrow">ETAPA 01 DE 03</p>
+            <h2 class="lead__title" id="lead-title">Informações pessoais</h2>
+            <p class="lead__subtitle">Para que nosso time entre em contato com você.</p>
+          </header>
+
+          <div class="field" data-field="name">
+            <label class="field__label" for="lead-name">Nome completo <span aria-hidden="true">*</span></label>
+            <div class="field__box">
+              <input class="field__input" id="lead-name" name="name" type="text" autocomplete="name" placeholder="Seu nome e sobrenome" required aria-describedby="lead-name-err">
+              <span class="field__ok" aria-hidden="true"><img src="assets/form/check.svg" alt=""></span>
+            </div>
+            <p class="field__error" id="lead-name-err">Informe seu nome e sobrenome.</p>
+          </div>
+
+          <div class="field" data-field="email">
+            <label class="field__label" for="lead-email">E-mail profissional <span aria-hidden="true">*</span></label>
+            <div class="field__box">
+              <input class="field__input" id="lead-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="seuemail@empresa.com" required aria-describedby="lead-email-err">
+              <span class="field__ok" aria-hidden="true"><img src="assets/form/check.svg" alt=""></span>
+            </div>
+            <p class="field__error" id="lead-email-err">Informe um e-mail válido.</p>
+          </div>
+
+          <div class="field" data-field="phone">
+            <label class="field__label" for="lead-phone">WhatsApp com DDD <span aria-hidden="true">*</span></label>
+            <div class="field__row">
+              <div class="field__select">
+                <select id="lead-ddi" name="ddi" aria-label="Código do país">
+                  <option value="55" data-c="BR" selected>BR  +55</option>
+                  <option value="52" data-c="MX">MX  +52</option>
+                  <option value="54" data-c="AR">AR  +54</option>
+                  <option value="57" data-c="CO">CO  +57</option>
+                  <option value="51" data-c="PE">PE  +51</option>
+                  <option value="56" data-c="CL">CL  +56</option>
+                  <option value="598" data-c="UY">UY  +598</option>
+                  <option value="595" data-c="PY">PY  +595</option>
+                  <option value="591" data-c="BO">BO  +591</option>
+                  <option value="593" data-c="EC">EC  +593</option>
+                  <option value="506" data-c="CR">CR  +506</option>
+                  <option value="27" data-c="ZA">ZA  +27</option>
+                  <option value="234" data-c="NG">NG  +234</option>
+                  <option value="233" data-c="GH">GH  +233</option>
+                  <option value="351" data-c="PT">PT  +351</option>
+                  <option value="1" data-c="US">US  +1</option>
+                </select>
+                <img src="assets/form/chevron.svg" alt="">
+              </div>
+              <div class="field__box">
+                <input class="field__input" id="lead-phone" name="phone" type="tel" autocomplete="tel-national" inputmode="tel" placeholder="(11) 99999-9999" required aria-describedby="lead-phone-err">
+                <span class="field__ok" aria-hidden="true"><img src="assets/form/check.svg" alt=""></span>
+              </div>
+            </div>
+            <p class="field__error" id="lead-phone-err">Informe um WhatsApp válido com DDD.</p>
+          </div>
+        </section>
+
+        <!-- Etapa 2 -->
+        <section class="lead__body" data-step="2" hidden>
+          <header class="lead__head">
+            <p class="lead__eyebrow">ETAPA 02 DE 03</p>
+            <h2 class="lead__title">Perfil profissional</h2>
+            <p class="lead__subtitle">Conte um pouco sobre a sua atuação no iGaming.</p>
+          </header>
+
+          <fieldset class="field group" data-group="experience">
+            <legend class="field__label">Qual é a sua experiência no mercado de iGaming? <span aria-hidden="true">*</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="experience" value="Operador de iGaming (dono de bet)"><span class="opt__mark"></span>Operador de iGaming (dono de bet)</label>
+              <label class="opt"><input type="radio" name="experience" value="Fornecedor de tecnologia para iGaming"><span class="opt__mark"></span>Fornecedor de tecnologia para iGaming</label>
+              <label class="opt"><input type="radio" name="experience" value="Afiliado de iGaming"><span class="opt__mark"></span>Afiliado de iGaming</label>
+              <label class="opt"><input type="radio" name="experience" value="Gestor de tráfego / Marketing"><span class="opt__mark"></span>Gestor de tráfego / Marketing</label>
+              <label class="opt"><input type="radio" name="experience" value="Investidor"><span class="opt__mark"></span>Investidor</label>
+              <label class="opt"><input type="radio" name="experience" value="Tenho pouca experiência"><span class="opt__mark"></span>Tenho pouca experiência</label>
+              <label class="opt"><input type="radio" name="experience" value="Estou começando no mercado"><span class="opt__mark"></span>Estou começando no mercado</label>
+            </div>
+            <p class="field__error">Selecione uma opção.</p>
+          </fieldset>
+
+          <fieldset class="field group" data-group="time">
+            <legend class="field__label">Há quanto tempo você atua no mercado de iGaming? <span aria-hidden="true">*</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="time" value="Ainda não atuo no mercado"><span class="opt__mark"></span>Ainda não atuo no mercado</label>
+              <label class="opt"><input type="radio" name="time" value="Menos de 1 ano"><span class="opt__mark"></span>Menos de 1 ano</label>
+              <label class="opt"><input type="radio" name="time" value="Entre 1 e 3 anos"><span class="opt__mark"></span>Entre 1 e 3 anos</label>
+              <label class="opt"><input type="radio" name="time" value="Entre 3 e 5 anos"><span class="opt__mark"></span>Entre 3 e 5 anos</label>
+              <label class="opt"><input type="radio" name="time" value="Mais de 5 anos"><span class="opt__mark"></span>Mais de 5 anos</label>
+            </div>
+            <p class="field__error">Selecione uma opção.</p>
+          </fieldset>
+
+          <fieldset class="field group" data-group="role">
+            <legend class="field__label">Qual é a sua função atual? <span aria-hidden="true">*</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="role" value="Proprietário / Fundador"><span class="opt__mark"></span>Proprietário / Fundador</label>
+              <label class="opt"><input type="radio" name="role" value="Diretor / Gestor"><span class="opt__mark"></span>Diretor / Gestor</label>
+              <label class="opt"><input type="radio" name="role" value="Afiliado"><span class="opt__mark"></span>Afiliado</label>
+              <label class="opt"><input type="radio" name="role" value="Marketing / Tráfego"><span class="opt__mark"></span>Marketing / Tráfego</label>
+              <label class="opt"><input type="radio" name="role" value="Tecnologia / Produto"><span class="opt__mark"></span>Tecnologia / Produto</label>
+              <label class="opt"><input type="radio" name="role" value="Investidor"><span class="opt__mark"></span>Investidor</label>
+              <label class="opt"><input type="radio" name="role" value="Outro"><span class="opt__mark"></span>Outro</label>
+            </div>
+            <p class="field__error">Selecione uma opção.</p>
+            <!-- aparece ao escolher "Outro" -->
+            <div class="field field--sub" data-field="roleOther" data-when="role=Outro" hidden>
+              <label class="field__sublabel" for="lead-role-other">Qual é a sua função?</label>
+              <div class="field__box">
+                <input class="field__input" id="lead-role-other" name="roleOther" type="text" placeholder="Descreva sua função" aria-describedby="lead-role-other-err">
+                <span class="field__ok" aria-hidden="true"><img src="assets/form/check.svg" alt=""></span>
+              </div>
+              <p class="field__error" id="lead-role-other-err">Descreva a sua função.</p>
+            </div>
+          </fieldset>
+
+          <div class="field" data-field="company">
+            <label class="field__label" for="lead-company">Qual empresa você representa? <span aria-hidden="true">*</span></label>
+            <div class="field__box">
+              <input class="field__input" id="lead-company" name="company" type="text" autocomplete="organization" placeholder="Nome da empresa" aria-describedby="lead-company-err">
+              <span class="field__ok" aria-hidden="true"><img src="assets/form/check.svg" alt=""></span>
+            </div>
+            <p class="field__error" id="lead-company-err">Informe o nome da empresa.</p>
+            <label class="check"><input type="checkbox" name="noCompany" value="sim"><span class="check__box"></span>Ainda não possuo empresa</label>
+          </div>
+        </section>
+
+        <!-- Etapa 3 -->
+        <section class="lead__body" data-step="3" hidden>
+          <header class="lead__head">
+            <p class="lead__eyebrow">ETAPA 03 DE 03</p>
+            <h2 class="lead__title">Seu projeto de iGaming</h2>
+            <p class="lead__subtitle">Assim indicamos a solução certa para o seu momento.</p>
+          </header>
+
+          <fieldset class="field group" data-group="license">
+            <legend class="field__label">Você possui alguma licença para operar no mercado de iGaming? <span aria-hidden="true">*</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="license" value="Sim"><span class="opt__mark"></span>Sim</label>
+              <label class="opt"><input type="radio" name="license" value="Não"><span class="opt__mark"></span>Não</label>
+              <label class="opt"><input type="radio" name="license" value="Em processo de obtenção"><span class="opt__mark"></span>Em processo de obtenção</label>
+            </div>
+            <p class="field__error">Selecione uma opção.</p>
+          </fieldset>
+
+          <fieldset class="field group" data-group="markets" data-multi>
+            <legend class="field__label">Quais mercados você pretende atingir? <span aria-hidden="true">*</span> <em>· selecione um ou mais</em></legend>
+            <div class="opts">
+              <label class="opt opt--check"><input type="checkbox" name="markets" value="Brasil"><span class="opt__mark"></span>Brasil</label>
+              <label class="opt opt--check"><input type="checkbox" name="markets" value="América Latina (LATAM)"><span class="opt__mark"></span>América Latina (LATAM)</label>
+              <label class="opt opt--check"><input type="checkbox" name="markets" value="África"><span class="opt__mark"></span>África</label>
+              <label class="opt opt--check"><input type="checkbox" name="markets" value="Ásia"><span class="opt__mark"></span>Ásia</label>
+              <label class="opt opt--check"><input type="checkbox" name="markets" value="Europa"><span class="opt__mark"></span>Europa</label>
+              <label class="opt opt--check"><input type="checkbox" name="markets" value="Outro"><span class="opt__mark"></span>Outro</label>
+            </div>
+            <p class="field__error">Selecione pelo menos um mercado.</p>
+          </fieldset>
+
+          <fieldset class="field group" data-group="solution">
+            <legend class="field__label">Em quais soluções da BetLogic você tem interesse? <span aria-hidden="true">*</span></legend>
+            <div class="sols">
+              <label class="sol"><input type="radio" name="solution" value="White Label Casino"><span class="opt__mark"></span><span class="sol__text"><strong>White Label Casino</strong><small>Plataforma completa com slots, cassino ao vivo, sportsbook, CRM, afiliados e pagamentos integrados.</small></span></label>
+              <label class="sol"><input type="radio" name="solution" value="Turnkey Solution"><span class="opt__mark"></span><span class="sol__text"><strong>Turnkey Solution</strong><small>Solução completa e personalizável, desenvolvida conforme as necessidades, integrações e objetivos do seu negócio.</small></span></label>
+              <label class="sol"><input type="radio" name="solution" value="Crypto Casino"><span class="opt__mark"></span><span class="sol__text"><strong>Crypto Casino</strong><small>Plataforma de cassino com foco em criptomoedas, pagamentos em cripto e stablecoins.</small></span></label>
+              <label class="sol"><input type="radio" name="solution" value="Ainda não sei"><span class="opt__mark"></span><span class="sol__text"><strong>Ainda não sei</strong><small>Ainda não sei qual solução é ideal para meu negócio.</small></span></label>
+            </div>
+            <p class="field__error">Selecione uma solução.</p>
+          </fieldset>
+
+          <fieldset class="field group" data-group="budget">
+            <legend class="field__label">Qual é o seu orçamento inicial para o projeto? <span aria-hidden="true">*</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="budget" value="Até R$ 10.000"><span class="opt__mark"></span>Até R$ 10.000</label>
+              <label class="opt"><input type="radio" name="budget" value="De R$ 10.000 a R$ 25.000"><span class="opt__mark"></span>De R$ 10.000 a R$ 25.000</label>
+              <label class="opt"><input type="radio" name="budget" value="De R$ 25.000 a R$ 50.000"><span class="opt__mark"></span>De R$ 25.000 a R$ 50.000</label>
+              <label class="opt"><input type="radio" name="budget" value="De R$ 50.000 a R$ 100.000"><span class="opt__mark"></span>De R$ 50.000 a R$ 100.000</label>
+              <label class="opt"><input type="radio" name="budget" value="De R$ 100.000 a R$ 500.000"><span class="opt__mark"></span>De R$ 100.000 a R$ 500.000</label>
+              <label class="opt"><input type="radio" name="budget" value="Acima de R$ 500.000"><span class="opt__mark"></span>Acima de R$ 500.000</label>
+            </div>
+            <p class="field__error">Selecione uma faixa de orçamento.</p>
+          </fieldset>
+
+          <div class="field" data-field="about">
+            <label class="field__label" for="lead-about">Conte um pouco sobre seu projeto <span aria-hidden="true">*</span></label>
+            <div class="field__box">
+              <textarea class="field__input field__input--area" id="lead-about" name="about" maxlength="500" rows="4" placeholder="Conte sobre sua experiência, o mercado em que pretende atuar e seus objetivos com a plataforma." aria-describedby="lead-about-err"></textarea>
+              <span class="field__count"><span data-count>0</span>/500</span>
+            </div>
+            <p class="field__error" id="lead-about-err">Escreva pelo menos algumas palavras sobre o projeto.</p>
+          </div>
+
+          <div class="consents">
+            <label class="check"><input type="checkbox" name="marketing" value="sim"><span class="check__box"></span>Aceito receber novidades, atualizações de produtos e ofertas comerciais da BetLogic.</label>
+            <div class="field group" data-group="privacy">
+              <label class="check"><input type="checkbox" name="privacy" value="sim"><span class="check__box"></span><span>Li e concordo com a <a href="#" class="check__link">Política de Privacidade</a> da BetLogic. <span class="check__req" aria-hidden="true">*</span></span></label>
+              <p class="field__error">Para continuar, aceite a Política de Privacidade.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Obrigado -->
+        <section class="lead__body lead__done" data-step="4" hidden>
+          <span class="lead__seal"><img src="assets/form/success.svg" alt=""></span>
+          <h2 class="lead__done-title"><span>Recebemos os seus dados.</span> <strong>Obrigado!</strong></h2>
+          <p class="lead__done-text">Um especialista da BetLogic vai analisar seu perfil e entrar em contato para entender seu projeto e apresentar a solução mais adequada ao seu negócio.</p>
+          <div class="lead__done-actions">
+            <!-- TODO: trocar pelo WhatsApp oficial da BetLogic (ex.: https://wa.me/55XXXXXXXXXXX) -->
+            <a href="#" class="lead__btn lead__btn--light" data-whatsapp target="_blank" rel="noopener"><img src="assets/form/whatsapp.svg" alt="">Falar agora no WhatsApp</a>
+            <button type="button" class="lead__btn lead__btn--ghost" data-lead-close>Conhecer a BetLogic</button>
+          </div>
+        </section>
+
+        <footer class="lead__foot">
+          <p class="lead__count">ETAPA <span data-step-count>1</span> DE 3</p>
+          <div class="lead__actions">
+            <button type="button" class="lead__back" data-lead-back hidden><img src="assets/form/arrow-left.svg" alt="">Voltar</button>
+            <button type="submit" class="lead__next"><span data-next-label>Continuar</span> <img src="assets/form/arrow-dark.svg" alt="" data-next-arrow></button>
+          </div>
+        </footer>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

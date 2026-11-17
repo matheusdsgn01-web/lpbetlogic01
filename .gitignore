@@ -1,0 +1,16 @@
+# configurações locais do editor / Claude
+.claude/
+.vscode/
+.idea/
+
+# material do cliente que já estava na pasta (não faz parte do site)
+BetLogic-20261112T212314Z-1-001/
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# dependências / logs (caso use npx serve, etc.)
+node_modules/
+*.log

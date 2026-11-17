@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Flag/Equador">
+<g clip-path="url(#clip0_0_142)">
+<path id="Vector" d="M0 0H28V10.5H0V0Z" fill="#FFDD00"/>
+<path id="Vector_2" d="M2.38419e-07 10.5H28V15.75H2.38419e-07V10.5Z" fill="#034EA2"/>
+<path id="Vector_3" d="M2.38419e-07 15.75H28V21H2.38419e-07V15.75Z" fill="#ED1C24"/>
+<path id="Vector_4" opacity="0.8" d="M14 13.0375C15.4014 13.0375 16.5375 11.9014 16.5375 10.5C16.5375 9.09858 15.4014 7.9625 14 7.9625C12.5986 7.9625 11.4625 9.09858 11.4625 10.5C11.4625 11.9014 12.5986 13.0375 14 13.0375Z" fill="#7A5C2E"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_142">
+<rect width="28" height="21" rx="2" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Flag/Gana">
+<g clip-path="url(#clip0_0_380)">
+<path id="Vector" d="M0 0H28V7H0V0Z" fill="#CE1126"/>
+<path id="Vector_2" d="M2.38419e-07 7H28V14H2.38419e-07V7Z" fill="#FCD116"/>
+<path id="Vector_3" d="M2.38419e-07 14H28V21H2.38419e-07V14Z" fill="#006B3F"/>
+<path id="Vector_4" d="M14 7.35L15.1375 10.85H12.1625L14.4375 9.1875L16.7125 10.85L14 7.35Z" fill="black"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_380">
+<rect width="28" height="21" rx="2" fill="white"/>
+</clipPath>
+</defs>
+</svg>

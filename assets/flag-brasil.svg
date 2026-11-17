@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Flag/Brasil">
+<g clip-path="url(#clip0_0_171)">
+<path id="Vector" d="M0 0H28V21H0V0Z" fill="#229E45"/>
+<path id="Vector_2" d="M14 19.075L27.2125 10.5L14 1.925L0.7875 10.5L14 19.075Z" fill="#F8E509"/>
+<path id="Vector_3" d="M14 15.75C16.8995 15.75 19.25 13.3995 19.25 10.5C19.25 7.60051 16.8995 5.25 14 5.25C11.1005 5.25 8.75 7.60051 8.75 10.5C8.75 13.3995 11.1005 15.75 14 15.75Z" fill="#2B49A3"/>
+<path id="Vector_4" d="M8.925 9.1875C12.8625 8.75 16.3625 10.0625 19.075 12.25L19.425 11.4625C16.5375 9.1875 12.95 7.9625 9.1 8.4L8.925 9.1875Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_171">
+<rect width="28" height="21" rx="2" fill="white"/>
+</clipPath>
+</defs>
+</svg>
